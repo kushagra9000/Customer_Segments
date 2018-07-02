@@ -1,6 +1,12 @@
 # Unsupervised Learning
 ## Project: Creating Customer Segments
 
+# Project Description
+A wholesale distributor recently tested a change to their delivery method for some customers, by moving from a morning delivery service five days a week to a cheaper evening delivery service three days a week.Initial testing did not discover any significant unsatisfactory results, so they implemented the cheaper option for all customers. Almost immediately, the distributor began getting complaints about the delivery service change and customers were canceling deliveries — losing the distributor more money than what was being saved. You’ve been hired by the wholesale distributor to find what types of customers they have to help them make better, more informed business decisions in the future. Your task is to use unsupervised learning techniques to see if any similarities exist between customers, and how to best segment customers into distinct categories.
+
+# Work
+ I first explored the data to determine if any product categories highly correlate with one another by observing a small subset of the data and also by ploting a scater matrix. Afterwards, I preprocess the data by scaling each product category and then identifying (and removing) unwanted outliers. Then I apply PCA transformations to the data and implement a clustering algorithm to segment the transformed customer data. Finally, I compare the segmentation found with an additional labeling and consider ways this information could assist the wholesale distributor with future service changes.
+
 ### Install[libraries to be used]
 
 This project requires **Python 2.7** and the following Python libraries installed:
