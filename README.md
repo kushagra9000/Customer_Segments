@@ -1,7 +1,7 @@
-# Content: Unsupervised Learning
+# Unsupervised Learning
 ## Project: Creating Customer Segments
 
-### Install
+### Install[libraries to be used]
 
 This project requires **Python 2.7** and the following Python libraries installed:
 
@@ -9,10 +9,7 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
-
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
-
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. 
+I would Recommend using [Anaconda](http://continuum.io/downloads) cause it already contain all the libraries needed for the project. 
 
 ### Code
 
